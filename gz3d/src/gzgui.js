@@ -285,7 +285,7 @@ var modelList =
       {modelPath:'number9', modelTitle:'Number 9'},
       {modelPath:'ragdoll', modelTitle:'Ragdoll'},
       {modelPath:'textured_shapes', modelTitle:'Textured shapes'}
-    ]}
+    ]},
 
     {path:'misc', title:'iFollow', examplePath1:'icharge1',
     examplePath2:'fenwick_frame',
