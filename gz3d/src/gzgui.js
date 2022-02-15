@@ -21,6 +21,16 @@ var tabColors = {selected: 'rgb(34, 170, 221)', unselected: 'rgb(42, 42, 42)'};
 
 var modelList =
   [
+    {path:'ifollow', title:'iFollow', examplePath1:'fenwick_frame',
+    examplePath2:'pallet_eu',
+      examplePath3:'icharge', models:
+    [
+      {modelPath:'fenwick_frame', modelTitle:'Fenwick Frame'},
+      {modelPath:'icharge', modelTitle:'icharge'},
+      {modelPath:'pallet_eu', modelTitle:'Pallet EU'},
+      {modelPath:'pallet_uk_dim', modelTitle:'Pallet UK'}
+    ]},
+
     {path:'buildings', title:'Buildings',
     examplePath1:'fast_food', examplePath2:'kitchen_dining',
       examplePath3:'house_1', models:
@@ -285,17 +295,8 @@ var modelList =
       {modelPath:'number9', modelTitle:'Number 9'},
       {modelPath:'ragdoll', modelTitle:'Ragdoll'},
       {modelPath:'textured_shapes', modelTitle:'Textured shapes'}
-    ]},
-
-    {path:'ifollow', title:'iFollow', examplePath1:'fenwick_frame',
-    examplePath2:'pallet_eu',
-      examplePath3:'icharge', models:
-    [
-      {modelPath:'fenwick_frame', modelTitle:'Fenwick Frame'},
-      {modelPath:'icharge', modelTitle:'icharge'},
-      {modelPath:'pallet_eu', modelTitle:'Pallet EU'},
-      {modelPath:'pallet_uk_dim', modelTitle:'Pallet UK'}
     ]}
+
   ];
 
 $(function()
