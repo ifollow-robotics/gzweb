@@ -287,12 +287,12 @@ var modelList =
       {modelPath:'textured_shapes', modelTitle:'Textured shapes'}
     ]},
 
-    {path:'misc', title:'iFollow', examplePath1:'icharge1',
-    examplePath2:'fenwick_frame',
-      examplePath3:'pallet_eu', models:
+    {path:'ifollow', title:'iFollow', examplePath1:'fenwick_frame',
+    examplePath2:'pallet_eu',
+      examplePath3:'icharge', models:
     [
       {modelPath:'fenwick_frame', modelTitle:'Fenwick Frame'},
-      {modelPath:'icharge1', modelTitle:'icharge1'},
+      {modelPath:'icharge', modelTitle:'icharge'},
       {modelPath:'pallet_eu', modelTitle:'Pallet EU'},
       {modelPath:'pallet_uk_dim', modelTitle:'Pallet UK'}
     ]}
